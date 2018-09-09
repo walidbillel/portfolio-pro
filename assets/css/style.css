@@ -38,20 +38,24 @@ html, body {
 body {
 	font-family: 'Lato', sans-serif;
 }
+
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Dosis', sans-serif;
 }
+
 a {
 	color: #e66f69;
 	transition: 0.4s ease all;
 	outline: none;
 }
+
 a:hover,a:active,a:focus{
 	text-decoration: none;
 	color: #e66f69;
 	opacity: 0.9;
 	outline: none;
 }
+
 .btn {
     color: #fff;
     background: transparent;
@@ -60,10 +64,18 @@ a:hover,a:active,a:focus{
     font-size: 1.2em;
     transition: 0.4s ease all;
 }
+
 .btn:hover {
     background: #fff;
     color: #000;
 }
+
+.github {
+	position: relative;
+	right: 75px;
+	top: 48px;
+}
+
 .block_title {
     font-size: 4em;
     font-weight: 300;
@@ -71,10 +83,11 @@ a:hover,a:active,a:focus{
     overflow: hidden;
     margin-bottom: 70px;
 }
+
 .block_title:before,.block_title:after {
     content: "";
     background: #ccc;
-    display: inline-block;
+    disaplay: inline-block;
     height: 1px;
     position: relative;
     width: 42%;
@@ -84,6 +97,7 @@ a:hover,a:active,a:focus{
     right: 0.5em;
     margin-left: -42%;
 }
+
 .block_title:after {
     left: 0.5em;
     margin-right: -42%;
@@ -101,10 +115,12 @@ header{
 	background-attachment: fixed;
 	background-position: 50% -50px;
 }
+
 .center {
     text-align: center;
     color: #fff;
 }
+
 .bigheadline {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
@@ -113,6 +129,7 @@ header{
 	color: black;
 	
 }
+
 .subheadline {
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 200;
@@ -128,6 +145,7 @@ header{
     bottom: 10%;
     left: 49%;
 }
+
 .scrollDown:hover{
 	color: rgba(255, 255, 255, 0.4);
 	transition: 0.4s ease all;
@@ -160,6 +178,7 @@ header{
 #navigation{
 	background: #111;
 }
+
 .nav-wrap {
 	position: fixed;
 	top: 0;
@@ -198,12 +217,14 @@ header{
     border-radius: 0px;
     margin-top: 5px;
 }
+
 .dropdown-menu ul {
     list-style: none;
     margin: 0;
     padding: 1em 2em;
     margin-top: 5%;
 }
+
 .dropdown-menu ul li {
     padding: 0.3em 0em 0.6em 0em;
     font-size: 1.3em;
@@ -215,6 +236,7 @@ header{
     top: 20%;
     font-size: 25px;
 }
+
 .arrow-up {
 	width: 0; 
 	height: 0; 
@@ -337,19 +359,23 @@ header{
 	bottom: 31px;
 	right: 20px;
 }
+
 .button{
 	background: transparent;
 	border: 1px solid #fff;
 }
+
 .button:hover {
     background: white;
     color: #000;
 }
+
 .btn-center {
     display: block;
     padding: 80px 0px 60px 0px;
     text-align: center;
 }
+
 .big.button {
     border: 1px solid #000;
     font-size: 2em;
@@ -380,16 +406,19 @@ header{
     position: relative;
     min-height: 600px;
 }
+
 #googleMap {
     position: absolute !important;
     top: 0;
     left: 0;
     height: 100%;
 }
+
 .project-img {
 	height: 250px;
 	width: 400px;
 }
+
 #contact-area {
     background: rgba(0, 0, 0, 0.7);
     width: 100%;
@@ -401,15 +430,18 @@ header{
 	color: #fff;
 	text-align: center;
 }
+
 .con-title {
     font-weight: 300;
     font-size: 3em;
     margin: 0;
     padding-bottom: 30px;
 }
+
 .moreDetails p {
     font-size: 16px;
 }
+
 .address {
     list-style: none;
     margin: 0;
